@@ -1,0 +1,76 @@
+.sidebar {
+  width: 160px;
+  height: 100%;
+  text-align: center;
+  float: left;
+}
+
+.container-nav {
+  width: 160px;
+  height: 100%; 
+  
+}
+
+.nav__icon, .nav__title {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.nav__link {
+  text-decoration: none;
+}
+
+.nav__icon {
+  position: relative;
+  top: 4px;
+  right: 15px;
+  width: 24px;
+  height: 18px;
+  background: center center no-repeat;
+}
+
+.nav__icon--main {
+  background-image: url("./img/main_icon.png")
+}
+
+.nav__icon--feed {
+  background-image: url("./img/feed_icon.png")
+}
+
+.nav__icon--team {
+  background-image: url("./img/team_icon.png")
+}
+
+.nav__link:hover .nav__icon--main {
+  background-image: url("./img/main_icon-hover.png")
+}
+
+.nav__link:hover .nav__icon--feed {
+  background-image: url("./img/feed_icon-hover.png")
+}
+
+.nav__link:hover .nav__icon--team {
+  background-image: url("./img/team_icon-hover.png")
+}
+
+.nav__link:hover .nav__title {
+  color: black;
+}
+
+.nav__title {
+  letter-spacing: 2.4px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #4b73b5;
+  text-transform: uppercase;
+}
+
+.nav {
+  position: relative;
+  top: 16px;
+}
+
+.nav__item {
+  padding: 10px 5px;
+  
+}
