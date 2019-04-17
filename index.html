@@ -22,8 +22,8 @@
         <div class="company-contacs">
           <a href="tel:+78000039210"class="company-contacs__phone">8(800)00-392-10</a>
           <div class="company-contacts__text">График работы
-            <p>пн-вс: 09:00-20:00</p>
-            <p>обед: 14:00-14:30</p>
+            <!-- <p>пн-вс: 09:00-20:00</p>
+            <p>обед: 14:00-14:30</p> -->
           </div>
         </div>
       </div>
@@ -133,17 +133,17 @@
               </li>
             </ul>
           </div>
-          <div  class="news-list">
-            <h1>Последние новости</h1>
-            <ul class="news__list">
-              <li class="nightly">
-                <div>
-                  <img class="nightly__image" src="./img/news.png" alt="">
-                </div class="">
-                <div class="nightly__desc">
-                  <div class="nightly__date">12.10.2016</div>
-                  <h3 class="nightly__subtitle">Ночные перелеты дешевле!</h3>
-                  <p class="nightly__text">
+          <div  class="news-block">
+            <h2 class="news-block__title">Последние новости</h2>
+            <ul class="news-block__list news">
+              <li class="news__item">
+                <div class="news_avatar">
+                  <img class="news__image" src="./img/news-avatar/news.png" alt="">
+                </div>
+                <div class="news__desc">
+                  <div class="news__date">12.10.2016</div>
+                  <h3 class="news__subtitle">Ночные перелеты дешевле!</h3>
+                  <p class="news__text">
                     Летящий в ночном небе самолет - зрелище загадочное и романтическое.
                     Крылатая машина величественно плывет в вышине, мерцая разноцветными
                     огнями, и почему-то кажется, что она наполнена удивительными людьми,
@@ -151,115 +151,127 @@
                   </p>
                 </div>
               </li>
-              <hr>
-              <li class="travel">
-              <img class="travel__image" src="./img/news1.png" alt="">
-              <div class="travel__desc">
-                <div class="travel__date">12.10.2016</div>
-                <h3 class="travel__subtitle">Путишествие в Грузию стало доступнее</h3>
-                <p class="travel__text">
+              <li class="news__item">
+                <div class="news_avatar">
+                  <img class="news__image" src="./img/news-avatar/news1.png" alt="">
+                </div>
+                <div class="news__desc">
+                  <div class="news__date">01.02.2016</div>
+                  <h3 class="news__subtitle">Ночные перелеты дешевле!</h3>
+                  <p class="news__text">
                     Экскурсии по Грузии в 2017 году от русских гидов: самые интересные
                     маршруты в Грузии от профессиональных гидов. Обзорные, пешеходные,
                     автомобильные, тематические экскурсии по интересным городам и курортам
                     Грузии. Не пропустите такую возможность!
-                </p>
-              </div>
+                      
+                  </p>
+                </div>
               </li>
-              <hr>
-              <li class="children">
-              <img class="children__image" src="./img/news2.png" alt="">
-              <div class="children__desc">
-                <div class="children__date">12.10.2016</div>
-                <h3 class="children__subtitle">Детские авиабилеты доступны для бизнес-класс</h3>
-                <p class="children__text">
+              <li class="news__item">
+                <div class="news_avatar">
+                  <img class="news__image" src="./img/news-avatar/news2.png" alt="">
+                </div>
+                <div class="news__desc">
+                  <div class="news__date">22.12.2015</div>
+                  <h3 class="news__subtitle">Ночные перелеты дешевле!</h3>
+                  <p class="news__text">
                     Путишествие на самолете с детьми - небольшое испытание для родителей.
                     Но это не экстремальное приключение, а обычный цивилизованный поход.
                     Тем более, различные авиакомпании стараются помочь скидками на детские
                     авиабилеты, специальным питанием и другими услугами на борту лайнера.
-                </p>
-              </div>
+                  </p>
+                </div>
               </li>
             </ul>
-          
-        </div>
-        <div class="pagination">
-          <div class="pagination__display">Маршрут 1 из 7</div>
-          <div class="pagination__controlls">
-            <a href="" class="pagination__prev"><</a>
-              <ul class="pagination__pages">
-                <li class="pagination__pages-item">
-                  <a href="#" class="pagination__link">1</a>
-                </li>
-                <li class="pagination__pages-item">
-                  <a href="#" class="pagination__link">2</a>
-                </li>
-                <li class="pagination__pages-item">
-                  <a href="#" class="pagination__link">3</a>
-                </li>
-                <li class="pagination__pages-item">
-                  <a href="#" class="pagination__link">4</a>
-                </li>
-                <li class="pagination__pages-item">
-                  <a href="#" class="pagination__link">5</a>
-                </li>
-                <li class="pagination__pages-item">
-                  <a href="#" class="pagination__link">6</a>
-                </li>
-                <li class="pagination__pages-item">
-                  <a href="#" class="pagination__link">7</a>
-                </li>
-              </ul>
-            <a href=""class="pagination__next">></a>
+          </div>
+          <div class="pagination">
+            <div class="pagination__display">Маршрут 1 из 7</div>
+            <div class="pagination__controlls">
+              <a href="" class="pagination__prev"><</a>
+                <ul class="pagination__pages">
+                  <li class="pagination__pages-item">
+                    <a href="#" class="pagination__link">1</a>
+                  </li>
+                  <li class="pagination__pages-item">
+                    <a href="#" class="pagination__link">2</a>
+                  </li>
+                  <li class="pagination__pages-item">
+                    <a href="#" class="pagination__link">3</a>
+                  </li>
+                  <li class="pagination__pages-item">
+                    <a href="#" class="pagination__link">4</a>
+                  </li>
+                  <li class="pagination__pages-item">
+                    <a href="#" class="pagination__link">5</a>
+                  </li>
+                  <li class="pagination__pages-item">
+                    <a href="#" class="pagination__link">6</a>
+                  </li>
+                  <li class="pagination__pages-item">
+                    <a href="#" class="pagination__link">7</a>
+                  </li>
+                </ul>
+              <a href=""class="pagination__next">></a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="footer">
-      <div class="footer footer__container">
+    <div class="footer">
+      <div class="container footer__container">
         <a href="#" class="logo-footer">
-          <img class="logo__picture" src="./img/logo_header.png" alt="">
+          <img class="logo-footer__picture" src="./img/logo_header.png" alt="">
         </a>
         <p class="author">
             Сделано с любовью и старанием
             на курсе "HTML+CSS" в LoftSchool.
             Автор работы: Серебряков Александр
         </p>
-        <img class="social" src="./img/Наши социальные сети.png" alt="">
-        <ul class="icon-list" type="none">
-          <li>
-            <a href="#">
-              <img src="./img/vk.png" alt="">
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./img/fb.png" alt="">
-          </li>
-          <li>
-            <a href="#">
-              <img src="./img/google.png" alt="">
-          </li>
-          <li>
-            <a href="#">
-              <img src="./img/twitter.png" alt="">
-          </li>
-          <li>
-            <a href="#">
-              <img src="./img/mail.png" alt="">
-          </li>
-        </ul>
+        <div class="social-networks">
+          <p class="social-networks__title">Наши социальные сети</p>
+          <ul class="social-networks__list social" type="none">
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <img class="social__image" src="./img/social-icon/vk.png" alt="">
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#"> 
+                <img class="social__image" src="./img/social-icon/fb.png" alt="">
+              </a>
+            </li >
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <img class="social__image" src="./img/social-icon/google.png" alt="">
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <img class="social__image" src="./img/social-icon/twitter.png" alt="">
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <img class="social__image" src="./img/social-icon/mail.png" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </div>
   </div>
-</div>
 </body>
 </html>
+
+
+                    
+          
   
  
                   
             
                   
-        
+
         
                     
                   
