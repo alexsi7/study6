@@ -1,7 +1,10 @@
+.container-pagination {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .pagination {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 20px;
+ display: inline-block;
 }
 
 .pagination__pages {
@@ -10,14 +13,19 @@
 }
 
 .pagination__display {
-  position: relative;
-  left: 300px;
-  top: 21px;
+  display: inline-block;
   font-size: 14px;
   color: rgb(101, 100, 100);
-  line-height: 1.5;
-  height: 12px;
 }
+
+.pagination__controlls {
+  display: inline-block;
+}
+
+
+
+
+
 
 .pagination a {
   font-size: 14px;
@@ -28,11 +36,8 @@
   text-decoration: none;
 }
 
-.pagination__pages-item, .pagination__prev, .pagination__next {
-  position: relative;
-  left: 405px;
+.pagination__pages-item {
   display: inline-block;
-  vertical-align: middle;
 }
 
 .pagination__prev, .pagination__next {
