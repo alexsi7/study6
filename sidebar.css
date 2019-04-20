@@ -46,11 +46,12 @@
 
 .nav__link:before {
   position: absolute;
+  top: 4px;
   left: 30px;
   content: '';
   bottom: 5px;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   transition: background-image 0.4s ease;
 }
 
@@ -72,17 +73,19 @@
   background-repeat: no-repeat;
 }
 
-.nav__item:hover .nav__link-main {
+.nav__item:hover .nav__link-main:before {
   background-image: url("./img/sidebar/main_icon-hover.png")
-  
+  background-repeat: no-repeat;
 }
 
 .nav__item:hover .nav__link-feed {
   background-image: url("./img/sidebar/feed_icon-hover.png")
+  background-repeat: no-repeat;
 }
 
 .nav__item:hover .nav__link-team {
   background-image: url("./img/sidebar/team_icon-hover.png")
+  background-repeat: no-repeat;
 }
 
 .nav__link:hover  {
