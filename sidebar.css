@@ -40,7 +40,10 @@
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
-  
+}
+
+.nav__link:hover  {
+  color: black;
 }
 
 
@@ -78,19 +81,19 @@
   background-repeat: no-repeat;
 }
 
-.nav__item:hover .nav__link-feed {
+.nav__item:hover .nav__link-feed:before {
   background-image: url("./img/sidebar/feed_icon-hover.png")
   background-repeat: no-repeat;
 }
 
-.nav__item:hover .nav__link-team {
+.nav__item:hover .nav__link-team:before {
   background-image: url("./img/sidebar/team_icon-hover.png")
   background-repeat: no-repeat;
 }
 
-.nav__link:hover  {
-  color: black;
-}
+
+
+
 
 
 
