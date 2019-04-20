@@ -1,10 +1,10 @@
 html, body {
   height: 100%;
-  
+ 
 
 }
 body {
-  font-weight: 400;
+  
   margin: 0;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: normal;
@@ -24,6 +24,7 @@ ul {
   height: 100%;
   margin: 0 auto;
   height: 100%;
+  font-weight: 300;
 }
 
 .maincontent__container {
@@ -75,6 +76,7 @@ ul {
 p {
   font-size: 18px;
   line-height: 30px;
+  /* font-weight: 300; */
 }
 
 ul {
@@ -101,14 +103,16 @@ ul li {
   height: 220px;
   vertical-align: middle;
   margin: 5px;
+  border-bottom: 1px solid #f5f5f5;
+  border-width: 3px; 
+  padding: 5px;
 }
 
-.border {
-  border-top: 1px solid #f5f5f5; /* Линия сверху текста */
-  border-bottom: 1px solid #f5f5f5; /* Линия снизу текста */
-  padding: 5px; /* Поля вокруг текста */
-  border-width: 3px;
+.news__item:last-child {
+  border-bottom: none;
 }
+
+
 
 
 .news__desc {
