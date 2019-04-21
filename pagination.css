@@ -1,0 +1,53 @@
+.container-pagination {
+  text-align: center;
+  margin: 30px;
+}
+
+.pagination {
+ display: inline-block;
+}
+
+.pagination__pages {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pagination__display {
+  display: inline-block;
+  font-size: 14px;
+  color: rgb(101, 100, 100);
+}
+
+.pagination__controlls {
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+.pagination a {
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+
+.pagination__pages-item {
+  display: inline-block;
+}
+
+.pagination__prev, .pagination__next {
+  position: relative;
+  top: 2px;
+}
+
+.pagination a:hover {
+  background-color:  #4b73b5;
+  border-radius: 5px;
+}

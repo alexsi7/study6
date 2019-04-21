@@ -1,0 +1,135 @@
+html, body {
+  height: 100%;
+ 
+
+}
+body {
+  
+  margin: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+.maincontent {
+  width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+  height: 100%;
+  font-weight: 300;
+}
+
+.maincontent__container {
+  display: inline-block;
+  width: 1100px;
+}
+
+.mainpage {
+  float: left;
+  width: 940px;
+  height: 100%;
+}
+
+.airplane {
+  position: relative;
+  left: 57px;
+}
+
+.tariff__item {
+  display: inline-block;
+  text-align: center;
+  width: 250px;
+  height: 460px;
+  padding: 5px;
+  margin: 5px;
+  vertical-align: middle;
+}
+
+.tariff__link {
+  position: relative;
+  display: inline-block;
+  background: #4b73b5;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+}
+
+.tariff__picture {
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%)
+}
+
+.tariff__price {
+  font-size: 53px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 30px;
+  /* font-weight: 300; */
+}
+
+ul {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+
+.title {
+  font-size: 49px;
+  position: relative;
+  left: 20px;
+}
+
+ul li {
+  list-style: none;
+}
+
+
+
+.news__item {
+  display: inline-flex;
+  width: 940px;
+  height: 220px;
+  vertical-align: middle;
+  margin: 5px;
+  border-bottom: 1px solid #f5f5f5;
+  border-width: 3px; 
+  padding: 5px;
+}
+
+.news__item:last-child {
+  border-bottom: none;
+}
+
+
+
+
+.news__desc {
+  line-height: 10px;
+  position: relative;
+  top: 25px;
+}
+
+
+.news__image {
+  
+  border-radius: 50%;
+  padding: 15px;
+  width: 180px;
+  height: 180px;
+}
+
+
+
+
